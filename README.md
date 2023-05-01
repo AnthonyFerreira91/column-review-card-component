@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-html-css-flexbox-js-OJuzsgmvX8](https://www.frontendmentor.io/solutions/interactive-rating-component-html-css-flexbox-js-OJuzsgmvX8)
-- Live Site URL: https://column-review-card-component-qypmp1ozp-matrixfrpro33.vercel.app/](https://column-review-card-component-qypmp1ozp-matrixfrpro33.vercel.app/)
+- Live Site URL: https://column-review-card-component-980oc5pld-matrixfrpro33.vercel.app/](https://column-review-card-component-980oc5pld-matrixfrpro33.vercel.app/)
 
 ### Built with
 
