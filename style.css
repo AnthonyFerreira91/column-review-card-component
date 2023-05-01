@@ -232,6 +232,9 @@ img {
 		height: 125px;
 		margin: 25px 47.5px 83px;
 	}
+	.section button {
+		font-size: 15px;
+	}
 }
 
 
