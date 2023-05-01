@@ -18,12 +18,12 @@ Users should be able to:
 
 ### Screenshot
 
-![myScreenshot](https://github.com/Matrixfrpro33/Interactive-Rating-Component/blob/d2b212145e7742f9579f95210f7f8250bf1ad10b/screenshot/Screenshot%20Interactive%20rating%20component%20(Moyenne).png)
+![myScreenshot](https://github.com/Matrixfrpro33/column-review-card-component/blob/e094162c66db6b80c55491457b84fce989b9ea3a/screenshot/Screenshot%20-3-column%20preview%20card%20component.png)
 
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-html-css-flexbox-js-OJuzsgmvX8](https://www.frontendmentor.io/solutions/interactive-rating-component-html-css-flexbox-js-OJuzsgmvX8)
-- Live Site URL: [https://interactive-rating-component-7radi1292-matrixfrpro33.vercel.app/](https://interactive-rating-component-7radi1292-matrixfrpro33.vercel.app/)
+- Live Site URL: https://column-review-card-component-qypmp1ozp-matrixfrpro33.vercel.app/](https://column-review-card-component-qypmp1ozp-matrixfrpro33.vercel.app/)
 
 ### Built with
 
