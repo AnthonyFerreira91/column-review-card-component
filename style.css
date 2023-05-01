@@ -1,0 +1,247 @@
+/* Font Lexend Deca, weight: 400 regular */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/* Font Big Shoulders Display, weight: 700 regular */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+	/* Primary */
+	--BrightOrange: hsl(31, 77%, 52%);
+	--DarkCyan: hsl(184, 100%, 22%):
+	/* Neutral */
+	--TransparentWhite: hsla(0, 0%, 100%, 0.75); /* Paragraphs */
+	--VeryLightGray : hsl(0, 0%, 95%); /* Background, headings, buttons */
+	/* Layout */
+	--Mobile: 375px;
+	--Deskop: 1440px;
+	/* Font */
+	--BigShoulder: 'Big Shoulders Display';
+	--LexendDeca: 'Lexend Deca';
+}
+
+*, ::before, ::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	font-size: 15px;
+	font-family: var(--LexendDeca), sans-serif;
+	background-color: var(--VeryLightGray);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container {
+	height: 1326px;
+	width: 327px;
+	margin: 88px 0 30px;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+}
+
+/* SECTION */
+.section {
+	height: 442px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.section:nth-child(1) {
+	border-radius: 8px 8px 0px 0px;
+	background-color: var(--BrightOrange);
+}
+.section:nth-child(2) {
+	background-color: #006971;
+}
+.section:nth-child(3) {
+	background-color: #004140;
+	border-radius: 0px 0px 8px 8px;
+}
+
+img {
+	width: 64px;
+	height: 40px;
+	margin: 48px 0 35px 49px;
+}
+
+.section h1 {
+	font-family: var(--BigShoulder);
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-left: 49px;
+}
+
+.section p {
+	margin: 25px 48.5px 25px 47.5px;
+	width: 231px;
+	height: 125px;
+	font-size: 15px;
+	line-height: 25px;
+	mix-blend-mode: normal;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.section button {
+	background-color: var(--VeryLightGray);
+	width: 146px;
+	height: 48px;
+	border: none;
+	border-radius: 25px;
+	margin-left: 49px;
+	cursor: pointer;
+}
+
+.btnSedans {
+	color: #E28625;
+}
+
+.btnSuvs {
+	color: #006971;
+}
+
+.btnLuxury {
+	color: #004140;
+}
+
+.section button:hover {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+}
+
+@media screen and (max-width: 250px) {
+	.section {
+		height: 350px;
+		justify-content: space-evenly !important;
+		align-items: center !important;
+	}
+	.section img,
+	.section h1,
+	.section p,
+	.section button {
+		margin: 0;
+	}
+	.section p {
+		font-size: 11px !important;
+		line-height: 20px;
+		width: 90%;
+		height: 100px;
+		margin: 0;
+	}
+	.section button {
+		margin:0;
+	}
+	.attribution {
+		font-size: 7px !important;
+	}
+
+	.section button {
+		background-color: var(--VeryLightGray);
+		width: 130px;
+		height: 35px;
+		border: none;
+		border-radius: 25px;
+
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.container {
+		width: 100%;
+	}
+	.section {
+		width: 100%;
+	}
+	.section img,
+	.section p,
+	.section button,
+	.section h1 {
+		margin-left: 15px;
+	}
+	.section p {
+		font-size: 13px;
+		width: 85%;
+	}
+	.section:nth-child(1) {
+		border-radius: 15px 15px 0px 0px;
+	}
+	.section:nth-child(3) {
+		border-radius: 0px 0px 15px 15px;
+	}
+	.attribution {
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width: 540px) and (max-width: 900px){
+	.container {
+		flex-direction: row;
+		height: 500px;
+		width: 100%;
+		max-width: 920px;
+	}
+	.section {
+		height: 500px;
+		width: 33.3%;
+	}
+	.section:nth-child(1) {
+		border-radius: 8px 0px 0px 8px;
+	}
+	.section:nth-child(3) {
+		border-radius: 0px 8px 8px 0px;
+	}
+	.section button,
+	.section h1 {
+		margin: 0 15%;
+	}
+	.section img {
+		margin: 48px 0 35px 15%;
+	}
+	.section p {
+		width: 75%;
+		margin: 25px 15% 83px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.container {
+		width: 920px;
+		height: 100vh;
+		flex-direction: row;
+		padding: 0;
+	}
+	.section {
+		height: 500px;
+	}
+	.section:nth-child(1) {
+		border-radius: 8px 0px 0px 8px;
+	}
+	.section:nth-child(3) {
+		border-radius: 0px 8px 8px 0px;
+	}
+	.section p {
+		width: 212px;
+		height: 125px;
+		margin: 25px 47.5px 83px;
+	}
+}
+
+
+/* ATTRIBUTION */
+.attribution {
+	font-size: 11px; 
+	text-align: center;
+	color: grey;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+	text-decoration: none;
+}
