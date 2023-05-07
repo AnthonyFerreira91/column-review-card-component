@@ -35,3 +35,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Matrixfrpro33](https://www.frontendmentor.io/profile/Matrixfrpro33)
+- Git-Hub - [@Matrixfrpro33](https://github.com/Matrixfrpro33)
